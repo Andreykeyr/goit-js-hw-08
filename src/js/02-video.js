@@ -23,7 +23,7 @@ player.on('timeupdate', _.throttle(data => {
 const savedTime = localStorage.getItem('videoplayer-current-time');
 if (savedTime !== null) {
   player.setCurrentTime(savedTime);
-}
+} 
 
 
 
